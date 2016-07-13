@@ -2,12 +2,10 @@
 # provision ruby 2.3.1, rails 5.0.0, and other relevant common dependencies/tools
 # rex 2016.0713.1330
 
-echo "-->  BEGIN Ruby on Rails 5.0.0 (Ruby 2.3.1) Provisioning"
+echo "-->  BEGIN ruby-rails-install.sh"
 
 ##########################################################################
 # install ruby 2.3.1
-
-echo "-->  BEGIN Ruby 2.3.1 installation"
 
 apt-get update
 
@@ -70,6 +68,6 @@ apt-get -y install git
 
 apt-get -y autoremove --purge
 
-echo "-->  END Ruby on Rails 5.0.0 (Ruby 2.3.1) Provisioning"
+echo "-->  END ruby-rails-install.sh"
 
 

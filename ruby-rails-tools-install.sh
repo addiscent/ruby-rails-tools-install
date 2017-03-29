@@ -9,6 +9,8 @@ RUBY_INSTALL_VER="0.6.1"
 
 echo "-->  BEGIN $0"
 
+set -x
+
 #################
 # install ruby
 apt-get update
@@ -20,6 +22,9 @@ make install
 ruby-install --system ruby $RUBY_VER -- --disable-install-rdoc
 cd ..
 rm -r ruby-install-*
+
+set +x
+
 echo "-->  END Ruby $RUBY_VER installation"
 
 #################

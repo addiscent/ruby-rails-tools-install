@@ -2,7 +2,7 @@
 
 This is a Bash script written for and used on Ubuntu (16.04.x).
 
-This script downloads and installs Ruby, Rails, and the minimum set of tools commonly used by Rails programmers.  The installation process compiles Ruby and the gems, so it depends on the package "build-essential" having been previoiusly installed, (do "sudo apt-get install build-essential" if necessary).
+This script downloads and installs Ruby, Rails, and the minimum set of tools commonly used by Rails programmers.  The installation process compiles Ruby and the gems, so it depends on the package "build-essential" having been previously installed, (do "sudo apt-get install build-essential" if necessary).
 
 It must be executed with elevated user permissions, (sudo or as root).
 

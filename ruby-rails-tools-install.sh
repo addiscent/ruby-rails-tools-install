@@ -7,7 +7,7 @@ RAILS_VER="5.0.2"
 SQLITE3_VER="1.3.13"
 RUBY_INSTALL_VER="0.6.1"
 
-echo "-->  BEGIN ruby-rails-install.sh"
+echo "-->  BEGIN $0"
 
 #################
 # install ruby
@@ -52,4 +52,4 @@ apt-get -y install git
 # auto-remove some bloat
 apt-get autoremove
 
-echo "-->  END ruby-rails-install.sh"
+echo "-->  END $0"

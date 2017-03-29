@@ -33,8 +33,8 @@ echo "-->  Install bundler"
 gem install bundler --no-document
 
 #################
-# install sqlite 3
-echo "-->  Install sqlite 3"
+# install sqlite3
+echo "-->  Install sqlite3"
 apt-get install libsqlite3-dev
 gem install sqlite3 -v "${SQLITE3_VER}" --no-document
 

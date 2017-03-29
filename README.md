@@ -1,2 +1,2 @@
 # ruby-rails-tools-install
-Downloads and installs Ruby, Rails, and related commonly used tools.
+Download and install Ruby, Rails, and related commonly used tools.

@@ -2,7 +2,7 @@
 # provision ruby, rails, and other relevant common dependencies/tools
 # rex 2017.0328.0630
 
-RUBY_VER="2.4.1"
+RUBY_VER="2.3.4"
 RAILS_VER="5.0.2"
 SQLITE3_VER="1.3.13"
 RUBY_INSTALL_VER="0.6.1"

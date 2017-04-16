@@ -12,7 +12,7 @@ Usage :
 After the script finishes, enter the following commands and confirm the results :
 
     $ ruby --version
-        ruby 2.4.1p111 (2017-03-22 revision 58053)
+        ruby 2.3.4p301
 
     $ rails --version
         Rails 5.0.2
